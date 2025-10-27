@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>About my Interests</title>
+        <style>
+
+            .mainDiv {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 300px;
+                gap: 50px;
+                margin: 200px;
+            }
+
+            .infoDiv {
+                padding: 10px;
+                border: 1px;
+                margin: auto;
+                background-color: lime;
+                background-repeat: no-repeat;
+                text-align: center;
+                grid-column: 1 / span 2;
+                grid-row: 1;
+            }
+
+            .logoDiv {
+                padding: 10px;
+                border: 1px;
+                margin: auto;
+                text-align: center;
+                grid-column: 3;
+                grid-row: 1;
+            }
+
+            div {
+                border-color: black;
+            }
+
+            img.icon {
+                width: 100px;
+                margin: auto;
+                display: block;
+            }
+
+            hr {
+                height: 2px;
+                border-width: 0;
+                color: gray;
+                background-color: black;
+            }
+
+            body {
+                background-image: url('https://i.imgur.com/sGGJ4If.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                font-family: Arial, sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+
+            .navigation a {
+                color: #22232e;
+                background: transparent;
+                text-decoration: none;
+                transition: font-size 0.4s ease;
+                margin-left: 25px;
+                margin-right: 10px;
+            }
+
+            .navigation a:hover {
+                color: blue;
+            }
+
+            .heading {
+                background-color: lightblue;
+                color: black;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 20px;
+            }
+
+            .title {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .title h1 {
+                margin: 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="heading">
+            <div class="title">
+                <img src="https://i.imgur.com/xISvgrb.png" alt="gaming icon" class="icon">
+                <h1>My Interests!</h1>
+            </div>
+
+            <div class="navigation">
+                <b>
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="minecraft.html">Minecraft</a>
+                    <a href="roblox.html">Roblox</a>
+                    <a href="clashofclans.html">Clash of Clans</a>
+                    <a href="songs.html">Songs</a>
+                </b>
+            </div>
+        </div>
+
+        <div class="mainDiv">
+            <div class="infoDiv">
+                <h1>Minecraft</h1>
+                <hr>
+                <h3>
+                    Minecraft is a sandbox game developed by Mojang Studios. It allows players to explore, mine resources, craft items, and build structures. Players can also interact with other players in multiplayer mode, and play games with them in community-made minigames. Minecraft supports third party game modifiers and custom content, making it a versatile and popular game among players of all ages.
+                </h3>
+            </div>
+            <div class="logoDiv">
+                <img src="https://yt3.googleusercontent.com/scvGT8SucZvs5yIkBBFQ0s0IQS1kPiiJgtYGUCTtRpIfSq6laBJ-5bPieuzrHuyVWIy0XxN4Ww=s900-c-k-c0x00ffffff-no-rj" alt="Minecraft logo" style="width:250px;">
+            </div>
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
